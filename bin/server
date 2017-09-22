@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 
 require('localenv');
-require('babel-register');
+require("reify");
 
-const log = require('bookrc');
 const debug = require('debug')('localtunnel');
 const optimist = require('optimist');
 

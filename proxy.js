@@ -1,9 +1,9 @@
 import net from 'net';
 import EventEmitter from 'events';
-import log from 'bookrc';
 import Debug from 'debug';
 
 const debug = Debug('localtunnel:server');
+const log = console;
 
 const Proxy = function(opt) {
     if (!(this instanceof Proxy)) {
