@@ -3,6 +3,7 @@ import tldjs from 'tldjs';
 import on_finished from 'on-finished';
 import Debug from 'debug';
 import http from 'http';
+import Promise from 'bluebird';
 
 import Proxy from './proxy';
 import rand_id from './lib/rand_id';
